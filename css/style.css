@@ -238,6 +238,10 @@ nav ul li a {
 /*----------------------------------------------------------------------------------*/
 /*  Header
 /*-----------------------------------------------------------------------------------*/
+#image-logo {
+  width: 50px;
+  height: 50px;
+}
 
 #header {
   background: url("../images/sree.png") repeat scroll center center / cover;
@@ -488,7 +492,7 @@ nav ul li a {
   position: relative;
 }
 
-.journal-block .journal-info .journal-txt h4 a {
+.journal-block .journal-info .journal-txt h4 {
   display: block;
   font-size: 19px;
   line-height: 24px;
@@ -502,7 +506,7 @@ nav ul li a {
   transition: all 0.5s ease-in-out 0s;
 }
 
-.journal-block .journal-info .journal-txt h4 a:hover {
+.journal-block .journal-info .journal-txt h4:hover {
   color: #b8a07e;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
@@ -517,6 +521,10 @@ nav ul li a {
   line-height: 24px;
 }
 
+.img-responsive {
+  width: 100%;
+  height: 100%;
+}
 /*-----------------------------------------------------------------------------------*/
 /*  Contact
 /*-----------------------------------------------------------------------------------*/
