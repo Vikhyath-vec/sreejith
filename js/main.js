@@ -79,7 +79,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["SREEJITH R R.", "standing for PRESIDENT.", "a LEADER."],
+      strings: ["SREEJITH R R.", "standing for PRESIDENT.", "your friend.", "a LEADER."],
       typeSpeed: 100,
       loop: true,
     });
